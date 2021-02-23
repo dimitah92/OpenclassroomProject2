@@ -1,9 +1,240 @@
+
 body{
+	font-family: 'Raleway', sans-serif;
+	width: 100%;
 	margin: 0 auto;
-	width: 1200px;
+}
+
+/*---------------- HEADER ----------------*/
+header{
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	margin: 1.5em 0 2em 0;
+
+}
+.elementMenu:nth-child(1) {
+	flex:1;
+}
+header a{
+	margin: 0;
+}
+nav{
+	margin: 0;
+	padding-top: 1em;
+}
+nav a{
+	text-decoration: none;
+	color: black;
+	padding: 2.35em 2.5em 0 2.5em;
+}
+nav a:nth-child(1){
+	color: #0065FC;
+	border-top: 0.2em solid #0065FC;
+}
+nav a:nth-child(3){
+	color: #0065FC;
+	font-weight: bold;
+}
+nav a:hover{
+	color: #0065FC;
+}
+/*----------- SECTION RECHERCHE ----------*/
+section{
+	margin: 1em;
+	width: 100%;
+}
+section h1{
+	margin: 0 0 0.3em 0;
+}
+section p{
+	margin: 0 0 0.5em 0;
+}
+.elementMenu:nth-child(1){
+	margin-left: 1em;
+}
+
+/*----------- champs géoloc-----------*/
+
+#champsRecherche{
+	margin: 1em 0 1em 0;
+	display: flex;
+}
+#champsRecherche a{
+	background-color: #f2f2f2;
+	border-radius: 15px 0 0 15px;
+}
+.fa-map-marker-alt{
+	padding: 0.9em;
+	color: black;
+}
+.geoloc{
+	font-weight: bold;
+	height: 3em;
+	border:#f2f2f2 1px solid;
+	padding-left: 1em; 
+}
+.geoloc:focus{
+	border:#f2f2f2 1px solid;
+}
+.geoloc::placeholder{
+	color: black;
+}
+
+.secB{
+	border: none;
+	color: white;
+	font-weight: bold;
+	background-color: #0065FC;
+	padding: 1em;
+	border-radius: 0 15px 15px 0; 
 }
 
 
-header{
-	margin: 
+/*-------------- Filtres------------------*/
+#filtres{
+	display: flex;
+	margin: 2em 0 1.5em 0;
+}
+
+#filtres p{
+	font-weight: bold;
+	margin-right: 2em;
+}
+#filtres button{
+	display: flex;
+}
+
+
+
+
+
+
+#infoPoint{
+	display: flex;
+	margin: 1.5em 0 1.5em 0;
+}
+.fa-info{
+	color:#0065FC;
+	font-weight: 100;
+	padding: 0.2em 0.4em 0.2em 0.4em;
+	border-radius:50%;
+  	border:2px solid #f2f2f2; 
+}
+/*---------------- HEBERGEMENTS ----------------*/
+
+#hebergements{
+	display: flex;
+}
+/*---------------- HEBERGEMENTS A MARSEILLE ----------------*/
+#heberMarseille{
+	width: 65%;
+	background-color: #f2f2f2;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	border-radius: 30px;
+}
+#heberMarseille h2{
+	width: 100%;
+	margin-left: 1.5em;
+}
+.heberM{
+	background-color: #FFFFFF;
+	padding: 0.5em;
+	margin: 1.5em;
+	width: 28%;
+	border-radius: 30px;
+	box-shadow: 2px 2px 15px 0.5px grey;
+}
+.heberM img{
+	width: 100%;
+	height: 10em;
+	object-fit: cover;
+	border-radius: 20px 20px 0 0;
+}
+#heberMarseille figcaption {
+	padding-left: 1em;
+}
+#heberMarseille h3 {
+	margin: 0.5em 0 0.5em 0;
+}
+.stars{
+	display: inline-flex;
+	justify-content: center;
+	font-size: 1em;
+}
+.fa-star{
+	color: gray;
+	cursor: pointer;
+	padding: 0.0625rem;
+}
+.blue{
+	color: #0065FC;
+}
+
+}
+.affichagePlus{
+	width: 100%;
+	margin: 2em 1.5em 2em 1.5em;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;	
+}
+
+/*---------------- LES PLUS POPULAIRES ----------------*/
+aside{
+	width: 35%;
+	background-color: #F2F2F2;
+	margin-left: 1em;
+}
+
+
+
+
+
+
+/*---------------- ACTIVITES A MARSEILLE ----------------*/
+#activites{
+	background-color: #F2F2F2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------- FOOTER ----------------*/
+footer{
+	display: flex;
+	justify-content: space-around;
+	background-color: #F2F2F2;
+	width: 100%;
+}
+footer h4{
+	font-weight: bolder;
+	margin: 2.5em 0 1.5em 0;
+}
+footer ul{
+	list-style-type: none;	
+	padding-left: 0;
+	margin: 0 auto;
+}
+footer li{
+	margin: 1em 0;
+	padding: 0 0 0 0;
+	font-weight: 400;
+}
+footer li:last-child{
+	margin: 0 0 2.5em 0;
+}
+footer a{
+	text-decoration: none;
+	color: black;
 }
