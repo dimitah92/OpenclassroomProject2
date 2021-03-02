@@ -6,12 +6,6 @@ body{
 }
 
 
-.fa, .fab, .fad, .fal, .far, .fas{
- 	line-height:0;
- }
-
-
-
 /*---------------- HEADER ----------------*/
 header{
 	width: 100%;
@@ -52,7 +46,6 @@ nav a:hover{
 
 header{
 	display: flex;
-	flex-direction: column;
 	align-content: center;
 
 }
@@ -91,7 +84,7 @@ section{
 section h1{
 	margin: 0 0 0.3em 0;
 }
-section p{
+.secP{
 	margin: 0 0 0.5em 0;
 }
 .elementMenu:nth-child(1){
@@ -162,6 +155,9 @@ button{
 	border: 2px solid #c9c9c9;
 	margin-right: 0.5em;
 }
+.filtresB:nth-child(1){
+	margin-left: 100px;
+}
 
 .btnH{
 	color: #0065FC;
@@ -174,12 +170,15 @@ button{
 	display: flex;
 	margin: 1.5em 0 1.5em 0;
 }
+#infoPoint p{
+	margin-left: 0.5em;
+}
 .fa-info{
 	color:#0065FC;
 	font-weight: 100;
-	padding: 0.4em 0.6em 0 0.7em;
+	padding: 1.5em 1em 1em 1em;
 	border-radius:50%;
-  	border:2px solid #f2f2f2; 
+  	border:2px solid #f2f2f2;
 }
 
 /*---------------- HEBERGEMENTS ----------------*/
@@ -324,7 +323,7 @@ aside h3 {
 }
 
 .actM:nth-child(1) {
-	height: 600px;
+	height: 200px;
 }
 
 
