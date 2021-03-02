@@ -5,11 +5,17 @@ body{
 	margin: 0 auto;
 }
 
+
+.fa, .fab, .fad, .fal, .far, .fas{
+ 	line-height:0;
+ }
+
+
+
 /*---------------- HEADER ----------------*/
 header{
 	width: 100%;
 	display: flex;
-	justify-content: flex-end;
 	margin: 1.5em 0 2em 0;
 
 }
@@ -39,6 +45,45 @@ nav a:nth-child(3){
 nav a:hover{
 	color: #0065FC;
 }
+
+
+/*----- HEADER MOBILE ------*/
+@media (max-width: 660px){
+
+header{
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+
+}
+nav:nth-child(3){
+	order: 1;
+}
+nav:nth-child(1){
+	order: 2;
+}
+nav:nth-child(2){
+	order: 3;
+}
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /*----------- SECTION RECHERCHE ----------*/
 section{
 	margin: 1em;
@@ -98,16 +143,32 @@ section p{
 
 #filtres p{
 	font-weight: bold;
-	margin-right: 2em;
+	padding: 0.9em 0.5em 0.5em 0.5em;
+	margin-block-start: 0;
+    margin-block-end: 0;
+
 }
 #filtres button{
 	display: flex;
 }
+button{
+	padding: 0;
+}
 
+.filtresB{
+	height: 38px;
+	background-color: #ffffff;
+	border-radius: 18px 18px 18px 18px;
+	border: 2px solid #c9c9c9;
+	margin-right: 0.5em;
+}
 
-
-
-
+.btnH{
+	color: #0065FC;
+	padding: 1em 1em 1em 1em;
+	border-radius:50%;
+  	background-color: #deebff;
+}
 
 #infoPoint{
 	display: flex;
@@ -116,10 +177,11 @@ section p{
 .fa-info{
 	color:#0065FC;
 	font-weight: 100;
-	padding: 0.2em 0.4em 0.2em 0.4em;
+	padding: 0.4em 0.6em 0 0.7em;
 	border-radius:50%;
   	border:2px solid #f2f2f2; 
 }
+
 /*---------------- HEBERGEMENTS ----------------*/
 
 #hebergements{
@@ -262,11 +324,8 @@ aside h3 {
 }
 
 .actM:nth-child(1) {
-	height: 100px;
+	height: 600px;
 }
-
-
-
 
 
 
