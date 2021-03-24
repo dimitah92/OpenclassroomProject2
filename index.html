@@ -11,7 +11,7 @@
     </head>
 
     <body>
-
+ 
 		<header> <!-- MENU Hebergements / activités -->
 			<a href="#" title="Accueil" class="elementMenu"><img src="images/logo/Reservia.svg"></a>
 			<button class="hideN">S'inscrire</button>
@@ -29,16 +29,16 @@
 			<div id="champsRecherche">
 				<a href="#"><i class="fas fa-map-marker-alt"></i></a>
 				<input class="geoloc" type="text" name="champs recherche" placeholder="Marseille, France">
-				<button class="secB">Rechercher</button>	
+				<a href="#"><button class="secB">Rechercher</button></a>	
 			</div>
 
 			
 			<div id="filtres">
 				<p> Filtres</p>
-				<button class="filtresB"><i class="fas fa-money-bill-wave btnH"></i><p>Economique</p></button>
-				<button class="filtresB"><i class="fas fa-male btnH"></i><p>Familial</p></button>
-				<button class="filtresB"><i class="fas fa-heart btnH"></i><p>Romantique</p></button>
-				<button class="filtresB"><i class="fas fa-dog btnH"></i><p>Animaux autorisés</p></button>
+				<a href="#"><button class="filtresB"><i class="fas fa-money-bill-wave btnH"></i><p>Economique</p></button></a>
+				<a href="#"><button class="filtresB"><i class="fas fa-male btnH"></i><p>Familial</p></button></a>
+				<a href="#"><button class="filtresB"><i class="fas fa-heart btnH"></i><p>Romantique</p></button></a>
+				<a href="#"><button class="filtresB"><i class="fas fa-dog btnH"></i><p>Animaux autorisés</p></button></a>
 			</div>
 			<div id="infoPoint">
 				<i class="fas fa-info fa-xs"></i><p>Plus de 500 logements sont disponibles dans cette ville</p>
@@ -50,6 +50,7 @@
 
 			<div id="heberMarseille"> <!-- hebergements à Marseille -->
 				<h2>Hébergements à Marseille</h2>
+				<div id="hebergement2">
 				<a href="#">
 					<figure class="heberM">
 					<img src="images\hebergements\4_small\marcus-loke-WQJvWU_HZFo-unsplash.jpg">
@@ -144,13 +145,21 @@
 							<i class="fa fa-star blue"></i>
 						</div>
 					</figcaption>
-				</figure>
+					</figure>
 				</a>
-					<a href="#" class="afficherPlus">Afficher plus</a>
+				</div>
+				
+					<div class="afficherPlus">
+						<a href="#">Afficher plus</a>
+					</div>
 			</div>
 
 			<aside> <!-- Les plus populaires -->
-				<h2>Les plus populaires</h2><i></i>
+				<div id="titlePop">
+				<h2>Les plus populaires</h2>
+				<i class="fas fa-map-marked"></i>
+				</div>
+			<div id="plusPops">
 				<a href="#">
 				<figure class="pops">
 					<img src="images\hebergements\4_small\emile-guillemot-Bj_rcSC5XfE-unsplash.jpg">
@@ -198,7 +207,8 @@
 						</div> 
 					</figcaption>
 				</figure>	
-				</a>			
+				</a>
+			</div>				
 			</aside>
 
 		</section>
