@@ -47,22 +47,55 @@ nav a:hover{
 /*----- HEADER MOBILE ------*/
 @media all and (max-width: 660px){
 
+
+.inscription {
+	display: none;
+}
+
+.hideN{
+	display: block;
+	text-decoration: none;
+	color: #0065FC;
+    font-weight: bold;
+    border: none;
+    background-color: white;
+    justify-content: flex-end;
+}
+
 header{
+	width: 100%;
 	display: flex;
-	align-content: center;
+	flex-wrap: wrap;
+	margin: 1.5em 0 2em 0;
+
 }
-nav a:nth-child(3){
-	order: 1;
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
 }
+
+.headerMenu{
+	width: 50%
+}
+
+.headerMenu2{
+	width: 50%;
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+}
+
 nav a:nth-child(1){
-	order: 2;
+	color: #0065FC;
+	border-top: none;
+	border-bottom: 0.2em solid #0065FC;
 }
-nav a:nth-child(2){
-	order: 3;
+
+
+nav a{
+	padding: 2.35em 2.5em 0 2.5em;
+	text-align: center;
 }
-
-
-
 
 
 
@@ -249,6 +282,9 @@ button{
 	border-radius: 30px;
 	box-shadow: 2px 2px 15px 0.5px grey;
 	margin: 1em;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 
 }
 
@@ -259,16 +295,16 @@ button{
 	border-radius: 20px 20px 0 0;
 	object-fit: cover;
 }
-#heberMarseille figcaption {
-	padding-left: 1em;
+.heberM p{
+	margin: 0 0 0 0;
+	padding-top: 0.5em;
 }
+
+
 #heberMarseille h3 {
-	margin: 0.5em 0 0.5em 0;
+	margin: 0.5em 0 0 0;
 }
-.stars{
-	display: inline-flex;
-	font-size: 1em;
-}
+
 .fa-star{
 	color: gray;
 	cursor: pointer;
@@ -282,9 +318,23 @@ button{
 	text-align: left;
 	margin-left: 1.5em;
 	margin-bottom: 1em;
+	font-weight: bold;
 }
 
 
+
+#hebergement2 figcaption {
+	padding-left: 1em;
+	display: flex;
+	flex-direction: column;
+}
+#hebergement2 .stars{
+	display: flex;
+	flex-direction: row;
+	font-size: 1em;
+	padding-left: 1em;
+	
+}
 
 /*---------------- LES PLUS POPULAIRES ----------------*/
 aside{
@@ -309,7 +359,9 @@ aside{
 	display: flex;
 	justify-content: space-between;
 }
-
+#titlePop i{
+	margin: 0.5em 2em 0 0;
+}
 
 aside h2{
 	padding-left: 10%;
@@ -352,11 +404,10 @@ aside h3 {
 }
 
 
-
-
 /*---------------- ACTIVITES A MARSEILLE ----------------*/
 #activites{
 	width: 100%;
+	height: 440px;
 }
 #activitesM{
 	width: 100%;
@@ -366,31 +417,59 @@ aside h3 {
 #activitesM a{
 	text-decoration: none;
 	color: black;
-	width: 25%;
 }
+
 .actM{
-	border-radius: 30px;
+	border-radius: 20px;
 	box-shadow: 2px 2px 15px 0.5px grey;
+	height: 100%;
 }
 .actM img{
 	width: 100%;
+	height: 85%;
 	object-fit: cover;
-	border-radius: 30px 30px 0 0;
+	border-radius: 20px 20px 0 0;
 }
 .actM h3{
-	padding: 0 1em 1em 1em;
+	margin: 0 0 0 0;
+	padding: 0.8em 1em 1em 1em;
+	font-size: 1em;
 }
 
 .actMD{
-	width: 25%;
+	width: 24%;
 	height: 100%;
 }
+.actMD figure{
+	margin: 0 1.2em 0 1.2em;
+}
+
+.act13 figure{
+	margin: 0 1.2em 0 0;
+}
+.act45 figure{
+	margin: 0 0 0 1.2em;
+}
+
+.actMD-middle img{
+	width: 100%;
+	height: 71%;
+}
+
+
 .actMD-middle{
-		height: 45%;
+		height: 50%;
 }
+
 .actMD-small{
-		height: 55%;
+		height: 37%;
 }
+.actMD-small img{
+	width: 100%;
+	height: 61%;
+}
+
+
 .actMD:nth-child(2n){
 	display: flex;
 	flex-direction: column;
