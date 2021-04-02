@@ -59,7 +59,7 @@ nav a:hover{
     font-weight: bold;
     border: none;
     background-color: white;
-    justify-content: flex-end;
+
 }
 
 header{
@@ -89,15 +89,24 @@ nav a:nth-child(1){
 	color: #0065FC;
 	border-top: none;
 	border-bottom: 0.2em solid #0065FC;
+	padding-bottom: 1em;
+}
+nav a:nth-child(2){
+	color: #0065FC;
+	border-top: none;
+	border-bottom: 0.2em solid grey;
+	padding-bottom: 1em;
 }
 
-
 nav a{
-	padding: 2.35em 2.5em 0 2.5em;
+
+	padding: 0 2.5em 2.35em 2.5em;
 	text-align: center;
 }
 
-
+.elementMenu {
+    margin-left: 0em;
+}
 
 }
 
