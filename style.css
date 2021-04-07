@@ -44,207 +44,6 @@ nav a:hover{
 	display: none;
 }
 
-
-/*----- HEADER MOBILE ------*/
-@media all and (max-width: 414px){
-
-
-.inscription {
-	display: none;
-}
-
-.hideN{
-	display: block;
-	text-decoration: none;
-	color: #0065FC;
-    font-weight: bold;
-    border: none;
-    background-color: white;
-
-}
-
-header{
-	width: 100%;
-	display: flex;
-	flex-wrap: wrap;
-	margin: 1.5em 0 2em 0;
-
-}
-nav{
-	display: flex;
-	flex-wrap: wrap;
-	width: 100%;
-}
-
-.headerMenu{
-	width: 50%
-}
-
-.headerMenu2{
-	width: 50%;
-	padding: 0 0 0 0;
-	margin: 0 0 0 0;
-}
-
-nav a:nth-child(1){
-	color: #0065FC;
-	border-top: none;
-	border-bottom: 0.2em solid #0065FC;
-	padding-bottom: 1em;
-}
-nav a:nth-child(2){
-	color: #0065FC;
-	border-top: none;
-	border-bottom: 0.2em solid grey;
-	padding-bottom: 1em;
-}
-
-nav a{
-
-	padding: 0 2.5em 2.35em 2.5em;
-	text-align: center;
-}
-
-.elementMenu {
-    margin-left: 0em;
-}
-
-
-
-
-
-#filtres{
-	display: flex;
-	 flex-wrap: wrap;
-	 justify-content: flex-start;
-	margin: 2em 0 1.5em 0;
-}
-#filtres a{
-	padding: 0.3em 0 0.3em 0;
-}
-
-
-
-
-
-
-
-
-#hebergements{
-	width: 100%;
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: column;
-    justify-content: center;
-
-
-}
-
-
-aside{
-	order: 1;
-	width: 100%;
-	margin: 0 auto;
-}
-
-
-
-
-
-
-
-
-
-
-
-#heberMarseille{
-	
-	order: 2;
-	width: 100%;
-	margin: 0 auto;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#activites{
-	width: 100%;
-	height: 100%;
-}
-#activitesM{
-	width: 100%;
-	display : flex;
-	flex-direction: column;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-footer{
-	width: 100%;
-	display : flex;
-	flex-direction: column;
-	
-}
-
-
-
-
-
-
-
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
 /*----------- SECTION RECHERCHE ----------*/
 section{
 	margin: 0;
@@ -640,3 +439,206 @@ footer a{
 	text-decoration: none;
 	color: black;
 }
+
+
+
+
+
+
+
+/*----- HEADER MOBILE ------*/
+@media all and (max-width: 414px){
+
+
+.inscription {
+	display: none;
+}
+
+.hideN{
+	display: block;
+	text-decoration: none;
+	color: #0065FC;
+    font-weight: bold;
+    border: none;
+    background-color: white;
+
+}
+
+header{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 1.5em 0 2em 0;
+
+}
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.headerMenu{
+	width: 50%
+}
+
+.headerMenu2{
+	width: 50%;
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+}
+
+nav a:nth-child(1){
+	color: #0065FC;
+	border-top: none;
+	border-bottom: 0.2em solid #0065FC;
+	padding-bottom: 1em;
+}
+nav a:nth-child(2){
+	color: #0065FC;
+	border-top: none;
+	border-bottom: 0.2em solid grey;
+	padding-bottom: 1em;
+}
+
+nav a{
+
+	padding: 0 2.5em 2.35em 2.5em;
+	text-align: center;
+}
+
+.elementMenu {
+    margin-left: 0em;
+}
+
+
+
+
+
+#filtres{
+	display: flex;
+	 flex-wrap: wrap;
+	 justify-content: flex-start;
+	margin: 2em 0 1.5em 0;
+}
+#filtres a{
+	padding: 0.3em 0 0.3em 0;
+}
+
+section{
+	padding: 0;
+}
+
+
+
+
+
+
+
+#hebergements{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+    justify-content: center;
+
+
+}
+
+
+aside{
+	order: 1;
+	width: 100%;
+	margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+#heberMarseille{
+	
+	order: 2;
+	width: 100%;
+	margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#activites{
+	width: 100%;
+	height: 100%;
+}
+#activitesM{
+	width: 100%;
+	height: 100%;
+	display : flex;
+	flex-direction: column;
+}
+
+.actMD{
+	width: 100%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+	width: 100%;
+	display : flex;
+	flex-direction: column;
+
+}
+
+
+
+
+
+
+
+
+
+}
+
