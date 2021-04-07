@@ -2,6 +2,7 @@
 body{
 	font-family: 'Raleway', sans-serif;
 	width: 100%;
+	margin: 0;
 }
 
 
@@ -45,7 +46,7 @@ nav a:hover{
 
 
 /*----- HEADER MOBILE ------*/
-@media all and (max-width: 660px){
+@media all and (max-width: 414px){
 
 
 .inscription {
@@ -108,6 +109,129 @@ nav a{
     margin-left: 0em;
 }
 
+
+
+
+
+#filtres{
+	display: flex;
+	 flex-wrap: wrap;
+	 justify-content: flex-start;
+	margin: 2em 0 1.5em 0;
+}
+#filtres a{
+	padding: 0.3em 0 0.3em 0;
+}
+
+
+
+
+
+
+
+
+#hebergements{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+    justify-content: center;
+
+
+}
+
+
+aside{
+	order: 1;
+	width: 100%;
+	margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+#heberMarseille{
+	
+	order: 2;
+	width: 100%;
+	margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#activites{
+	width: 100%;
+	height: 100%;
+}
+#activitesM{
+	width: 100%;
+	display : flex;
+	flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+	width: 100%;
+	display : flex;
+	flex-direction: column;
+	
+}
+
+
+
+
+
+
+
+
+
 }
 
 
@@ -123,7 +247,8 @@ nav a{
 
 /*----------- SECTION RECHERCHE ----------*/
 section{
-	margin: 1em;
+	margin: 0;
+	padding: 1em;
 }
 section h1{
 	margin: 0 0 0.3em 0;
@@ -415,7 +540,6 @@ aside h3 {
 
 /*---------------- ACTIVITES A MARSEILLE ----------------*/
 #activites{
-	width: 100%;
 	height: 440px;
 }
 #activitesM{
