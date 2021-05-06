@@ -511,8 +511,6 @@ section{
 }	
 
 
-
-
 .actMD figure{
 	margin: 0 0 0 1.2em;
 }
@@ -600,16 +598,25 @@ nav a{
 #champsRecherche{
 margin: 1em;
 }
+
+#champsRecherche a{
+	text-decoration: none;
+}
+
+
+
 .secB{
 display: none;
 }
 .secLook{
+	display: block;
 	border: none;
 	color: white;
 	font-weight: bold;
 	background-color: #0065FC;
 	padding: 0.8em;
 	border-radius: 15px 15px 15px 15px; 
+	text-decoration: none;
 }
 
 
