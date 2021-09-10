@@ -114,11 +114,15 @@ section h1{
 }
 #filtres p{
 	font-weight: bold;
-	padding: 0.7em 0.5em 0.5em 0.5em;
-	margin-block-start: 0;
-    margin-block-end: 0;
+	padding: 0em 1em 0.5em 0.5em;
 
 }
+
+p {
+    display: block;
+    margin-block-start: 0.8em;
+}
+
 #filtres p:nth-child(1){
 padding: 0.5em 0.5em 0.5em 0em;
 	}
@@ -127,9 +131,13 @@ padding: 0.5em 0.5em 0.5em 0em;
 #filtres button{
 	display: flex;
 	cursor: pointer;
+	margin-top: 12px;
 }
 button{
 	padding: 0;
+}
+#filtres button:hover{
+	background-color: #f2f2f2;
 }
 
 .filtresB{
@@ -176,7 +184,6 @@ button{
 }
 .fa-info{
 	color:#0065FC;
-	font-weight: 100;
 	padding: 0.5em 0.6em 0.5em 0.6em;
 	border-radius:50%;
   	border:2px solid #f2f2f2;
@@ -211,7 +218,6 @@ button{
 	color: black;
 	width: 33%;
 	display: flex;
-	justify-content: center;
 
 }
 .heberM{
@@ -255,12 +261,12 @@ button{
 }
 .afficherPlus{
 	width: 100%;
-	text-align: left;
-	margin-left: 1.5em;
 	margin-bottom: 1em;
 	font-weight: bold;
+	margin-left: 1.5em;
+	margin-top: 1em;
+	margin-bottom: 2em;
 }
-
 
 
 #hebergement2 figcaption {
@@ -274,6 +280,10 @@ button{
 	font-size: 1em;
 	padding-left: 1em;
 	
+}
+
+.bold{
+	font-weight: bold;
 }
 
 /*---------------- LES PLUS POPULAIRES ----------------*/
@@ -292,7 +302,6 @@ aside{
 	display: flex;
 	flex-direction: column;
 	align-content: space-around;
-	justify-content: center;
 }
 
 #titlePop{
@@ -312,7 +321,7 @@ aside a{
 }
 .pops{
 	width: 80%;
-	min-height: 150px;
+	min-height: 162px;
 	background-color: #FFFFFF;
 	padding: 0.5em;
 	border-radius: 30px;
@@ -329,7 +338,7 @@ aside .stars{
 
 .pops img{
 	width: 35%;
-	height: 150px;
+	height: 162px;
 	border-radius: 20px 0 0 20px;
 	object-fit: cover;
 }
@@ -372,8 +381,8 @@ aside h3 {
 }
 .actM h3{
 	margin: 0 0 0 0;
-	padding: 0.8em 1em 1em 1em;
-	font-size: 1em;
+	padding: 1.5em 1em 1em 1em;
+	font-size: 0.8em;
 }
 
 .actMD{
@@ -614,9 +623,10 @@ display: none;
 	color: white;
 	font-weight: bold;
 	background-color: #0065FC;
-	padding: 0.8em;
+	padding: 0.9em;
 	border-radius: 15px 15px 15px 15px; 
 	text-decoration: none;
+	margin: 0 0 0 -12px;
 }
 
 
@@ -773,7 +783,17 @@ footer{
 }
 
 
+footer h4{
+	margin: 1.5em 0 1.5em 0;
+}
 
+#nosHebergements h4{
+	margin: 0.5em 0 1.5em 0;
+}
+
+#assistance h4{
+	margin: 0.5em 0 1.5em 0;
+}
 
 
 }
